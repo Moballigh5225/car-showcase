@@ -52,7 +52,9 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                       className="object-contain"
                     />
                   </button>
-                  <div className="flex-1 flex flex-col gap-3"></div>
+                  <div className="flex-1 flex flex-col gap-3">
+                    <div className=""></div>
+                  </div>
                 </Dialog.Panel>
               </Transition.Child>
             </div>
